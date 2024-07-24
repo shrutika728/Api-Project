@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project For Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script>
+    $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+
+  </script>
+</head>
+<body>
+    <!-- Navbar head -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark"">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item   custom-spacing">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item custom-spacing ">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item custom-spacing">
+                <a class="nav-link" href="weather.html">Weather</a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="clearfix">
+            <div class="spinner-border  text-warning"  role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow  text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-grow text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-grow text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-grow text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-dark" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- carousel start -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/1.jpeg" class="d-block w-100" alt="please wait will upload soon">
+        <div class="carousel-caption d-none d-md-block">
+          <p>“Stay away from those people who try to disparage your ambitions. Small minds will always do that, but great minds will give you a feeling that you can become great too.”</p>
+        </div>
+      </div>>
+      <div class="carousel-item">
+        <img src="images/4.jpeg" class="d-block w-100" alt="please wait will upload soon">
+        <div class="carousel-caption d-none d-md-block">
+          <p>“Nature has given us all the pieces required to achieve exceptional wellness and health, but has left it to us to put these pieces together.” </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.jpeg" class="d-block w-100" alt="please wait will upload soon">
+        <div class="carousel-caption d-none d-md-block">
+          <p>“Nothing in the world can take the place of persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. The slogan ‘Press On’ has solved and always will solve the problems of the human race.” </p>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+      <!-- carousel end -->
+
+      <!-- Accordion Start -->
+       
+    <div id="accordion">
+    <h3>Dot Net</h3>    
+    <div>
+        <p>.NET is a comprehensive development platform developed by Microsoft. It provides a wide range of tools and libraries for building various types of applications, including web, desktop, mobile, and cloud-based solutions. First introduced in 2002, .NET has evolved significantly, offering developers a versatile and powerful environment for creating modern software.</p>
+        <h3>Key Features of .net</h3>
+        <ol><li>Cross-Platform: With the introduction of .NET Core (now part of .NET 5 and later), the platform became cross-platform, allowing developers to build applications that run on Windows, macOS, and Linux. This shift enables greater flexibility and reach for .NET applications.</li>
+            <li>Language Interoperability: .NET supports multiple programming languages, including C#, F#, and Visual Basic .NET (VB.NET). This language interoperability allows developers to use different languages within the same application or project, leveraging the strengths of each language.
+            </li>
+            <li>Unified Framework: .NET offers a unified framework that provides a consistent set of APIs and libraries for various application types. This unification simplifies development and reduces the need to learn multiple frameworks or technologies.
+            </li>
+            <li>Managed Code: .NET applications are executed in a managed runtime environment known as the Common Language Runtime (CLR). The CLR handles memory management, exception handling, and security, ensuring that code is executed in a safe and efficient manner.
+            </li>
+            <li>Rich Class Library: The .NET Framework (and .NET Core) comes with an extensive class library that provides a wide range of pre-built functionalities, including data access, file I/O, networking, and user interface components. This library accelerates development by offering reusable components.
+            </li>
+            <li>Integrated Development Environment (IDE): Microsoft Visual Studio is the primary IDE for .NET development. It offers advanced tools for coding, debugging, testing, and deploying applications, making it a powerful environment for .NET developers.
+            </li>
+            <li>ASP.NET: ASP.NET is a key component of the .NET ecosystem, providing a framework for building dynamic web applications and services. ASP.NET Core, the cross-platform version of ASP.NET, allows developers to create high-performance web applications and APIs.
+            </li>
+            <li>Entity Framework: Entity Framework (EF) is an Object-Relational Mapping (ORM) framework that simplifies data access and manipulation by allowing developers to work with databases using .NET objects instead of raw SQL queries.
+            </li>
+            <li>Dependency Injection: .NET provides built-in support for dependency injection (DI), a design pattern that promotes loose coupling and testability by injecting dependencies into classes rather than creating them internally.
+            </li>
+            <li>Security: The .NET platform includes various security features, such as code access security, role-based security, and encryption libraries, to help protect applications from security threats.</li></ol>
+        </li>    
+        </div>
+    <h3>Java</h3>
+    <div>
+      <p>
+        Java is a widely-used, high-level programming language developed by Sun Microsystems (now owned by Oracle Corporation) in 1995. It was designed to be platform-independent, which means that code written in Java can run on any device that has the Java Virtual Machine (JVM) installed. This principle is known as "write once, run anywhere."</p>
+      <h3>Key Features of Java</h3>
+    <ol><li>Object-Oriented: Java follows the principles of object-oriented programming (OOP), such as encapsulation, inheritance, and polymorphism, which facilitate code reusability, modularity, and maintainability.</li>
+        <li> Platform Independence: Java programs are designed to be platform-independent at both the source and binary levels. This is achieved through the use of the Java Virtual Machine (JVM), which interprets compiled Java bytecode, allowing it to run on any device with a JVM.
+        </li>
+        <li>Automatic Memory Management: Java includes automatic garbage collection, which helps manage memory allocation and deallocation, reducing the likelihood of memory leaks and other memory-related issues.
+        </li>
+        <li>Rich Standard Library: Java comes with a comprehensive standard library, known as the Java Standard Edition (Java SE), which provides a wide range of pre-built classes and methods for tasks such as data structures, networking, file I/O, and graphical user interface (GUI) development.
+        </li>
+        <li>Multithreading: Java supports multithreading, which allows multiple threads to run concurrently within a program. This is useful for developing applications that require simultaneous execution of tasks, such as games or real-time applications.
+        </li>
+        <li>security: Java has a robust security model, including features like bytecode verification, sandboxing, and the Java Security Manager, which help protect against malicious code and ensure secure execution of applications.
+        </li>
+        <li> Performance: Java uses Just-In-Time (JIT) compilation to convert bytecode into native machine code at runtime, improving performance. The language is also optimized for performance through various JVM tuning and optimization techniques.
+        </li>
+        <li>Community and Ecosystem: Java benefits from a large and active community of developers, as well as a rich ecosystem of frameworks, tools, and libraries. Popular frameworks include Spring, Hibernate, and Apache Struts, which extend Java's capabilities and simplify development.</li>
+    </li>
+
+        </ol>
+    </div>
+    <h3>C++ </h3>
+    <div>
+      <p>
+        C++ is a powerful, high-performance programming language that combines the features of both high-level and low-level languages. It was developed by Bjarne Stroustrup in 1979 as an extension of the C programming language. C++ is widely used in software development for systems, applications, and games due to its flexibility and efficiency.
+      </p>
+      <h3>Key Features of c++</h3>
+      <ol>
+        <li>Object-Oriented Programming (OOP): C++ supports object-oriented programming, which includes concepts like classes, objects, inheritance, polymorphism, encapsulation, and abstraction. This makes it easier to manage and organize complex software systems.
+        </li>
+        <li>Performance and Efficiency: C++ provides low-level access to memory and system resources, which allows for high-performance applications. It supports manual memory management, giving developers fine-grained control over resource allocation and deallocation.
+        </li>
+        <li>Standard Template Library (STL): The STL is a powerful library that provides a set of common data structures and algorithms, such as vectors, lists, stacks, queues, and hash tables. It also includes generic algorithms for searching, sorting, and manipulating data.
+        </li>
+        <li>Rich Functionality: C++ inherits the rich functionality of C, including support for procedural programming and direct manipulation of hardware and memory. It also introduces additional features like function overloading, operator overloading, and exception handling.
+        </li>
+        <li>Multi-Paradigm Language: C++ supports multiple programming paradigms, including procedural, object-oriented, and generic programming. This flexibility allows developers to choose the most appropriate paradigm for their specific needs.
+        </li>
+        <li>Compile-Time Polymorphism: Through the use of templates, C++ supports compile-time polymorphism, which allows for the creation of generic and reusable code. Templates enable type-safe operations without sacrificing performance.
+        </li>
+        <li>Portability: C++ is a highly portable language, meaning that code written in C++ can be compiled and run on various platforms with minimal modifications. This makes it suitable for developing cross-platform applications.
+    </li>
+      </ol>
+</div>
+    <h3>Python</h3>
+    <div>
+      <p>Python is a high-level, interpreted programming language known for its simplicity and readability, making it an excellent choice for beginners and experienced developers alike. Developed by Guido van Rossum and first released in 1991, Python emphasizes code readability with its use of significant indentation, which leads to cleaner and more maintainable code.</p>
+      <p>
+        <h3>Key Features of Python</h3>
+        <ol><li>Readable and Maintainable Code: Python's clean syntax allows developers to write clear, logical code for both small and large-scale projects. Indentation is used to define block structures, reducing the need for curly braces or keywords.</li>
+            <li>Extensive Standard Library: Python comes with a comprehensive standard library that supports many common programming tasks, such as connecting to web servers, reading and modifying files, and working with data formats.</li>
+            <li>Dynamic Typing: Python is dynamically typed, meaning that you don't need to declare the type of a variable when you create one. This flexibility can speed up development time.
+            </li>
+            <li>Interpreted Language: As an interpreted language, Python executes code line by line, making it easier to debug and allowing for quick iteration and testing.
+            </li>
+            <li>Object-Oriented and Functional: Python supports both object-oriented and functional programming paradigms. It allows the definition of classes and the creation of reusable code with functions.
+            </li>
+            <li>Cross-Platform Compatibility: Python runs on many operating systems, including Windows, macOS, Linux, and more. This cross-platform compatibility ensures that Python programs can be executed on various systems without modification.
+            </li>
+            <li>Extensive Support for Third-Party Packages: The Python Package Index (PyPI) hosts thousands of third-party packages, enabling developers to extend Python's capabilities with tools for web development, data analysis, artificial intelligence, and more.
+            </li>
+            <li>Community and Ecosystem: Python boasts a large and active community, contributing to a rich ecosystem of tools, frameworks, and libraries. Popular frameworks include Django and Flask for web development, NumPy and pandas for data analysis, and TensorFlow and PyTorch for machine learning.
+              </li>
+        </ol>
+        </p>
+    </div>
+  </div>
+   <!-- contact me -->
+   <div class="contact-area">
+    <div class="contact">
+      <main>
+        <section>
+          <div class="content">
+            <img src="images/contactMe.png" alt="Profile Image">
+  
+            <aside>
+              <h1>Shrutika Sharma</h1>
+              <p>Hi, I'm Shrutika Sharma and I'm a Full Stack Python Developer.</p>
+            </aside>
+            
+            <button>
+              <span>Contact Me</span>
+              
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" fill="#444444"> <path d="M14.83 30.83L24 21.66l9.17 9.17L36 28 24 16 12 28z"></path> </g> </svg>
+            </button>
+          </div>
+  
+          <div class="title"><p>Contact Me</p></div>
+        </section>
+  
+        
+      </main>
+  
+      <nav>
+        <a href="shrutika728@gmail.com" class="gmail">
+          <div class="icon">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 3v10c0 .567-.433 1-1 1h-1V4.925L8 9.233 2 4.925V14H1c-.567 0-1-.433-1-1V3c0-.283.108-.533.287-.712C.467 2.107.718 2 1 2h.333L8 6.833 14.667 2H15c.283 0 .533.108.713.288.179.179.287.429.287.712z" 
+                fill-rule="evenodd"/></svg>
+          </div>
+  
+          <div class="content">
+            <h1>Email</h1>
+            <span>shrutika728@gmail.com</span>
+          </div>
+          
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" 
+          width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" 
+          fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
+        </a>
+  
+        <a href="#" class="facebook">
+          <div class="icon">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.48-1.195 1.18v1.54h2.39l-.31 2.42h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0" fill-rule="nonzero"/></svg>
+          </div>
+  
+          <div class="content">
+            <h1>Facebook</h1>
+            <span>Shrutika Sharma</span>
+          </div>
+          
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
+        </a>
+  
+        <a href="#" class="twitter">
+          <div class="icon">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"/></svg>
+          </div>
+  
+          <div class="content">
+            <h1>Twitter</h1>
+            <span>@shrutika728</span>
+          </div>
+          
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
+        </a>
+      </nav>
+    </div>
+  </div>
+    <!-- contact me end -->
+   
+        <script src="index.js"></script>
+      <script src="weather.js"></script>
+      <script src="product.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
